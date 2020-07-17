@@ -1,0 +1,104 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>be69948e-36d7-4ed9-81f5-aa14302df678</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>MyPong.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>MyPong</Name>
+    <RootNamespace>MyFlappy</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="MyPong.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.7</Version>
+      <Description>env (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\menu0.png" />
+    <Resource Include="images\menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\ball.png" />
+    <Content Include="images\bat00.png" />
+    <Content Include="images\bat01.png" />
+    <Content Include="images\bat02.png" />
+    <Content Include="images\bat10.png" />
+    <Content Include="images\bat11.png" />
+    <Content Include="images\bat12.png" />
+    <Content Include="images\blank.png" />
+    <Content Include="images\digit00.png" />
+    <Content Include="images\digit01.png" />
+    <Content Include="images\digit02.png" />
+    <Content Include="images\digit03.png" />
+    <Content Include="images\digit04.png" />
+    <Content Include="images\digit05.png" />
+    <Content Include="images\digit06.png" />
+    <Content Include="images\digit07.png" />
+    <Content Include="images\digit08.png" />
+    <Content Include="images\digit09.png" />
+    <Content Include="images\digit10.png" />
+    <Content Include="images\digit11.png" />
+    <Content Include="images\digit12.png" />
+    <Content Include="images\digit13.png" />
+    <Content Include="images\digit14.png" />
+    <Content Include="images\digit15.png" />
+    <Content Include="images\digit16.png" />
+    <Content Include="images\digit17.png" />
+    <Content Include="images\digit18.png" />
+    <Content Include="images\digit19.png" />
+    <Content Include="images\digit20.png" />
+    <Content Include="images\digit21.png" />
+    <Content Include="images\digit22.png" />
+    <Content Include="images\digit23.png" />
+    <Content Include="images\digit24.png" />
+    <Content Include="images\digit25.png" />
+    <Content Include="images\digit26.png" />
+    <Content Include="images\digit27.png" />
+    <Content Include="images\digit28.png" />
+    <Content Include="images\digit29.png" />
+    <Content Include="images\effect0.png" />
+    <Content Include="images\effect1.png" />
+    <Content Include="images\impact0.png" />
+    <Content Include="images\impact1.png" />
+    <Content Include="images\impact2.png" />
+    <Content Include="images\impact3.png" />
+    <Resource Include="images\impact4.png" />
+    <Resource Include="images\over.png" />
+    <Resource Include="images\table.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

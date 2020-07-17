@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MyFlappy", "MyFlappy.pyproj", "{BE69948E-36D7-4ED9-81F5-AA14302DF678}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MyPong", "MyPong.pyproj", "{BE69948E-36D7-4ED9-81F5-AA14302DF678}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
