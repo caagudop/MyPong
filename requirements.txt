@@ -1,5 +1,5 @@
 numpy==1.19.0
 pgzero==1.2
-pip==19.0.3
+pip==21.1
 pygame==1.9.6
 setuptools==40.8.0
